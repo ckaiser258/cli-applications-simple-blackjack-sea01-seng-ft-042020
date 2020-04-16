@@ -61,7 +61,7 @@ def runner
     card_total += hit?(card_total)
     display_card_total(card_total)
 end
-binding.pry
 end_game(card_total)
+binding.pry
 end
     

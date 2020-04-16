@@ -59,7 +59,7 @@ def runner
   hit?(card_total)
   display_card_total(card_total)
   until card_total > 21
-    card_total += hit?(card_total)
+    hit?(card_total)
     binding.pry
     display_card_total(card_total)
 end
